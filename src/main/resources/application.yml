@@ -1,0 +1,9 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mybatis
+    username: root
+    password: zx229008
+mybatis:
+  type-aliases-package: com.irzx.service.pojo
